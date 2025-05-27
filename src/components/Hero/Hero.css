@@ -1,0 +1,42 @@
+.Hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/hero_11zon.webp);
+    background-position: right;
+    background-size: cover;
+}
+.hero-title {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.hero-title h1{
+    line-height: 51px;
+    letter-spacing: 1px;
+    color: #333;
+}
+.hero-title h1 span{
+    padding: 5px;
+    font-size: 25px;
+    background: #fd822a;
+    border-radius: 20px;
+}
+.hero-title a{
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 20px;
+    border: 1px  solid #333;
+    letter-spacing: 1px;
+    color: #333;
+    transition: background .4s  ease-in-out,
+    color .4s ease-in-out;
+}
+.hero-title a:hover{
+    background: #fd822a;
+    color: white;
+}
