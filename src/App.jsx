@@ -10,7 +10,7 @@ import Login from './pages/Login/Login'
 const App = () => {
   return (
     <div className='App'>
-      <BrowserRouter basename='/FakeApi_GlameStore'>
+      <BrowserRouter basename='/FakeApi_GlameStore/'>
         <Header/>
         <CartSidebar />
           <Routes>
